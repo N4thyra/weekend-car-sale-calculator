@@ -1,0 +1,13 @@
+c:\users\juddy\documents\visual studio 2017\Projects\weekend_sale_calc\weekend_sale_calc\bin\Debug\weekend_sale_calc.exe.config
+c:\users\juddy\documents\visual studio 2017\Projects\weekend_sale_calc\weekend_sale_calc\bin\Debug\weekend_sale_calc.exe
+c:\users\juddy\documents\visual studio 2017\Projects\weekend_sale_calc\weekend_sale_calc\bin\Debug\weekend_sale_calc.pdb
+c:\users\juddy\documents\visual studio 2017\Projects\weekend_sale_calc\weekend_sale_calc\obj\Debug\MainWindow.baml
+c:\users\juddy\documents\visual studio 2017\Projects\weekend_sale_calc\weekend_sale_calc\obj\Debug\MainWindow.g.cs
+c:\users\juddy\documents\visual studio 2017\Projects\weekend_sale_calc\weekend_sale_calc\obj\Debug\App.g.cs
+c:\users\juddy\documents\visual studio 2017\Projects\weekend_sale_calc\weekend_sale_calc\obj\Debug\weekend_sale_calc_MarkupCompile.cache
+c:\users\juddy\documents\visual studio 2017\Projects\weekend_sale_calc\weekend_sale_calc\obj\Debug\weekend_sale_calc.g.resources
+c:\users\juddy\documents\visual studio 2017\Projects\weekend_sale_calc\weekend_sale_calc\obj\Debug\weekend_sale_calc.Properties.Resources.resources
+c:\users\juddy\documents\visual studio 2017\Projects\weekend_sale_calc\weekend_sale_calc\obj\Debug\weekend_sale_calc.csproj.GenerateResource.Cache
+c:\users\juddy\documents\visual studio 2017\Projects\weekend_sale_calc\weekend_sale_calc\obj\Debug\weekend_sale_calc.exe
+c:\users\juddy\documents\visual studio 2017\Projects\weekend_sale_calc\weekend_sale_calc\obj\Debug\weekend_sale_calc.pdb
+c:\users\juddy\documents\visual studio 2017\Projects\weekend_sale_calc\weekend_sale_calc\obj\Debug\weekend_sale_calc.csprojResolveAssemblyReference.cache

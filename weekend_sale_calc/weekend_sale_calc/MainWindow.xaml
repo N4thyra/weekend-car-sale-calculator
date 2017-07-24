@@ -1,0 +1,26 @@
+﻿<Window x:Class="weekend_sale_calc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Car Price Calculator" ResizeMode="NoResize" Height="553" Width="525">
+    <Grid x:Name="Window" Margin="0,0,0,-1" Height="500">
+        <DataGrid AutoGenerateColumns="False" x:Name="dataGrid" HorizontalAlignment="Center" Height="250" Margin="-3,0" VerticalAlignment="top" Width="525">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="  Název modelu" Width="150" Binding="{Binding Model}"/>
+                <DataGridTextColumn Header="Datum prodeje" Width="150" Binding="{Binding Date, StringFormat={}{0:dd.MM.yyyy}}"/>
+                <DataGridTextColumn Header="Cena" Width="120" Binding="{Binding Price, StringFormat={}{0:N0}\,\-}"/>
+                <DataGridTextColumn Header="DPH" Width="*" Binding="{Binding Tax}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Load XML &amp; Calculate!" HorizontalAlignment="Center" VerticalAlignment="Top" Width="198" Click="loadXML_Click" FontSize="16" Height="33" Margin="160,264,161,0"/>
+        <DataGrid AutoGenerateColumns="False" x:Name="resultGrid" HorizontalAlignment="Center" Height="150" Margin="0,340,0,0" VerticalAlignment="Center" Width="276" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="  Název modelu&#x0a;  Cena bez DPH" Width="132" Binding="{Binding ModelAndPrice, StringFormat={}{0:N0}}" HeaderStringFormat=""/>
+                <DataGridTextColumn Header="Cena s DPH" Width="*" Binding="{Binding PriceWithTax, StringFormat={}{0:N0}}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="R E S U L T S&#xA;" HorizontalAlignment="Center" Margin="185,311,184,0" VerticalAlignment="Top" FontSize="16" Width="150" Height="30" HorizontalContentAlignment="Center" FontWeight="ExtraBlack" FontStretch="Condensed"/>
+    </Grid>
+</Window>
